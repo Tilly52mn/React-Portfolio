@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -20,10 +22,12 @@ function App() {
         {!contactSelected ? (
           <>
             <About></About>
+            <Portfolio></Portfolio>
           </>
         ) : (
             <ContactForm></ContactForm>
-          )}
+          ) }
+          <Footer></Footer>
       </main>
     </div>
   );
