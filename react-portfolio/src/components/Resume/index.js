@@ -5,10 +5,32 @@ function Resume() {
   return (
     <section className="my-5" >
       <h1 id="Portfolio">Resume</h1>
+      <p>Download my<a href="../../../public/Resume.pdf" download> resume</a></p>
       <div className="my-2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-      </p>
+          <div>
+              <h4>Front-end Proficencies</h4>
+              <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>JQery</li>
+                  <li>responsive design</li>
+                  <li>Bootstrap</li>
+                  <li>React</li>
+              </ul>
+          </div>
+          <div>
+              <h4>Back-end Proficencies</h4>
+              <ul>
+                  <li>APIs</li>
+                  <li>Node</li>
+                  <li>Express</li>
+                  <li>MySQL, Sequilize</li>
+                  <li>responsive design</li>
+                  <li>MongoDB, Mongoose</li>
+                  <li>Rest</li>
+              </ul>
+          </div>
       </div>
     </section>
   )
