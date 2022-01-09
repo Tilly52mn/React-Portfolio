@@ -1,36 +1,40 @@
 import './App.css';
 import React, { useState } from 'react';
-import Nav from './components/Nav';
-import About from './components/About';
-import ContactForm from './components/Contact';
-import Portfolio from './components/Portfolio';
+// import Nav from './components/Nav';
+// import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import Body from './components/Body';
 
 function App() {
 
 
 
-  const [contactSelected, setContactSelected] = useState(false);
+  // const [contactSelected, setContactSelected] = useState(false);
 
-  return (
+  // return (
+  //   <div>
+  //     <Nav
+  //       contactSelected={contactSelected}
+  //       setContactSelected={setContactSelected}
+  //     ></Nav>
+  //     <main>
+  //       {!contactSelected ? (
+  //         <>
+  //         <body />
+  //         </>
+  //       ) : (
+  //           <ContactForm></ContactForm>
+  //         ) }
+  //         <Footer></Footer>
+  //     </main>
+  //   </div>
+  // );
+  return(
     <div>
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <About></About>
-            <Portfolio></Portfolio>
-          </>
-        ) : (
-            <ContactForm></ContactForm>
-          ) }
-          <Footer></Footer>
-      </main>
-    </div>
-  );
+    <Body />
+   <footer></footer>
+   </div>
+  )
 }
 
 export default App;
