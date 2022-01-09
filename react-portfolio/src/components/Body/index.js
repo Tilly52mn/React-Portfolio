@@ -4,6 +4,7 @@ import Portfolio from '../Portfolio';
 import Nav from '../Nav';
 import Contact from '../Contact';
 import Resume from '../Resume';
+import Footer from '../Footer';
 
 
 function Body() {
@@ -32,6 +33,8 @@ function Body() {
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Call the renderPage function passing in the currentPage */}
         <div>{renderPage(currentPage)}</div>
+        <Footer>
+        </Footer>
       </div>
     );
   }

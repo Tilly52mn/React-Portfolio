@@ -1,5 +1,4 @@
 import React from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
 
 // function Nav(props) {
 //   // const {
@@ -73,7 +72,7 @@ function Nav(props) {
       <h2>Adam Tilly</h2>
       <ul className="nav nav-tabs">
         {tabs.map(tab => (
-          <li className="nav-item" key={tab}>
+          <li className="nav-item mx-2 " key={tab}>
             <a
               href={'#' + tab.toLowerCase()}
               // Whenever a tab is clicked on,
