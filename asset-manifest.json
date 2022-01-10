@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.609888c9.css",
-    "main.js": "/react-portfolio/static/js/main.3c837c8a.js",
-    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
-    "static/media/adrien-converse-FWhTeWRCeis-unsplash.jpg": "/react-portfolio/static/media/adrien-converse-FWhTeWRCeis-unsplash.5ba43648e904345bbb33.jpg",
-    "static/media/ilya-pavlov-OqtafYT5kTw-unsplash.jpg": "/react-portfolio/static/media/ilya-pavlov-OqtafYT5kTw-unsplash.1e6660160d74059a9764.jpg",
-    "static/media/Run-Buddy.PNG": "/react-portfolio/static/media/Run-Buddy.eecb885383a1a2551c17.PNG",
-    "static/media/Trailfinder.PNG": "/react-portfolio/static/media/Trailfinder.9fd7179ad84f484cf75a.PNG",
-    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.cb1a325f7f6969b94abd.pdf",
-    "static/media/picture.png": "/react-portfolio/static/media/picture.8d30f6df328ace6be1f5.png",
-    "static/media/Baby_tracker.PNG": "/react-portfolio/static/media/Baby_tracker.7de08083d98f83886184.PNG",
-    "index.html": "/react-portfolio/index.html",
-    "main.609888c9.css.map": "/react-portfolio/static/css/main.609888c9.css.map",
-    "main.3c837c8a.js.map": "/react-portfolio/static/js/main.3c837c8a.js.map",
-    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
+    "main.css": "/static/css/main.fd1e7c8c.css",
+    "main.js": "/static/js/main.ec6c13c7.js",
+    "static/js/787.8c081f57.chunk.js": "/static/js/787.8c081f57.chunk.js",
+    "static/media/adrien-converse-FWhTeWRCeis-unsplash.jpg": "/static/media/adrien-converse-FWhTeWRCeis-unsplash.5ba43648e904345bbb33.jpg",
+    "static/media/ilya-pavlov-OqtafYT5kTw-unsplash.jpg": "/static/media/ilya-pavlov-OqtafYT5kTw-unsplash.1e6660160d74059a9764.jpg",
+    "static/media/Run-Buddy.PNG": "/static/media/Run-Buddy.eecb885383a1a2551c17.PNG",
+    "static/media/Trailfinder.PNG": "/static/media/Trailfinder.9fd7179ad84f484cf75a.PNG",
+    "static/media/Resume.pdf": "/static/media/Resume.cb1a325f7f6969b94abd.pdf",
+    "static/media/picture.png": "/static/media/picture.8d30f6df328ace6be1f5.png",
+    "static/media/Baby_tracker.PNG": "/static/media/Baby_tracker.7de08083d98f83886184.PNG",
+    "index.html": "/index.html",
+    "main.fd1e7c8c.css.map": "/static/css/main.fd1e7c8c.css.map",
+    "main.ec6c13c7.js.map": "/static/js/main.ec6c13c7.js.map",
+    "787.8c081f57.chunk.js.map": "/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.609888c9.css",
-    "static/js/main.3c837c8a.js"
+    "static/css/main.fd1e7c8c.css",
+    "static/js/main.ec6c13c7.js"
   ]
 }
