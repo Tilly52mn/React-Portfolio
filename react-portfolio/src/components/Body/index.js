@@ -32,7 +32,7 @@ function Body() {
         {/* Pass the state value and the setter as props to NavTabs */}
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Call the renderPage function passing in the currentPage */}
-        <div>{renderPage(currentPage)}</div>
+        <div className='page-body'>{renderPage(currentPage)}</div>
         <Footer>
         </Footer>
       </div>

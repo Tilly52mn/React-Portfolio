@@ -19,7 +19,7 @@ function Nav(props) {
               // the current page is set through the handlePageChange props.
               onClick={() => props.handlePageChange(tab)}
               className={
-                props.currentPage === tab ? 'nav-link active' : 'nav-link font-weight-bold bg-dark'
+                props.currentPage === tab ? 'nav-link active' : 'nav-link font-weight-bold'
               }
             >
               {tab}
