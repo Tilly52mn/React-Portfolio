@@ -38,18 +38,24 @@ function ContactForm() {
   return (
     <section>
       <h1>Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+      <form id="contact-form" onSubmit={handleSubmit} style={{ marginLeft:"10px"}}>
+        <div style={{ justifyContent: "left", display: "flex", }}>
+          <div style={{ justifyContent: "space-between",width:"25%" , display: "flex", }}>
+            <label htmlFor="name">Name:</label>
+            <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+          </div>
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+        <div style={{ justifyContent: "left", display: "flex"}}>
+          <div style={{ justifyContent: "space-between",width:"25%" , display: "flex", }}> 
+            <label htmlFor="email">Email address:</label>
+            <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+          </div>
         </div>
-        <div>
+        <div style={{ justifyContent: "left", display: "flex", }}>
+          <div className= "message-box" >
           <label htmlFor="message">Message:</label>
           <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+        </div>
         </div>
         {errorMessage && (
           <div>
