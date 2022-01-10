@@ -26,7 +26,7 @@ Adam Tilly
 no test
 
 ## snapshot of page
-![webpage]![Capture](https://user-images.githubusercontent.com/88518686/148718829-c26335ad-a93e-4f9f-9f1e-d23dd528ec5c.PNG)
+![Webpage](https://user-images.githubusercontent.com/88518686/148718829-c26335ad-a93e-4f9f-9f1e-d23dd528ec5c.PNG)
 
 
 ## Questions
