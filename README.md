@@ -7,7 +7,7 @@
 [Usage](#Usage)<br/>
 [Contributing](#Contributing)<br/>
 [Tests](#Tests)<br/>
-[snapshot of page](#snapshot of page)<br/>
+[Snapshot of page](#Snapshot of page)<br/>
 [Questions](#Questions)<br/>
 
 ## Description
@@ -25,7 +25,7 @@ Adam Tilly
 ## Tests
 no test
 
-## snapshot of page
+## Snapshot of page
 ![Webpage](https://user-images.githubusercontent.com/88518686/148718829-c26335ad-a93e-4f9f-9f1e-d23dd528ec5c.PNG)
 
 
