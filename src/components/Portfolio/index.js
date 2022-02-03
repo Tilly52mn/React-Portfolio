@@ -9,8 +9,8 @@ function Portfolio() {
         <row>
       <div className="first-project md" >
                 <div className="label">
-                   <a href=" https://tilly52mn.github.io/run-buddy/" target="_blank"> <h3>Run Buddy</h3></a>
-                   <a href="https://github.com/Tilly52mn/run-buddy"> <i class="fa fa-github fa-2x"></i></a>
+                   <a href=" https://cbc-connect-4.herokuapp.com/" target="_blank"> <h3>Connect-4</h3></a>
+                   <a href="https://github.com/Bycicleace/connect-four"> <i class="fa fa-github fa-2x"></i></a>
                     </div>    
         </div>
         <div className="project project-2 md" href=""target="_blank">
