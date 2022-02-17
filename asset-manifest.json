@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.72ca2f2e.css",
-    "main.js": "/react-portfolio/static/js/main.7885ac59.js",
+    "main.js": "/react-portfolio/static/js/main.7935a8de.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/adrien-converse-FWhTeWRCeis-unsplash.jpg": "/react-portfolio/static/media/adrien-converse-FWhTeWRCeis-unsplash.5ba43648e904345bbb33.jpg",
     "static/media/ilya-pavlov-OqtafYT5kTw-unsplash.jpg": "/react-portfolio/static/media/ilya-pavlov-OqtafYT5kTw-unsplash.1e6660160d74059a9764.jpg",
     "static/media/Trailfinder.PNG": "/react-portfolio/static/media/Trailfinder.9fd7179ad84f484cf75a.PNG",
-    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.cb1a325f7f6969b94abd.pdf",
-    "static/media/picture.png": "/react-portfolio/static/media/picture.8d30f6df328ace6be1f5.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.309a9657fc7edb12c6bb.pdf",
+    "static/media/picture.png": "/react-portfolio/static/media/picture.44d4dfee2a593fd778ee.png",
     "static/media/Connect-4.PNG": "/react-portfolio/static/media/Connect-4.43ea643e505cb8b7969f.PNG",
     "static/media/Baby_tracker.PNG": "/react-portfolio/static/media/Baby_tracker.7de08083d98f83886184.PNG",
     "index.html": "/react-portfolio/index.html",
     "main.72ca2f2e.css.map": "/react-portfolio/static/css/main.72ca2f2e.css.map",
-    "main.7885ac59.js.map": "/react-portfolio/static/js/main.7885ac59.js.map",
+    "main.7935a8de.js.map": "/react-portfolio/static/js/main.7935a8de.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72ca2f2e.css",
-    "static/js/main.7885ac59.js"
+    "static/js/main.7935a8de.js"
   ]
 }
