@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from "emailjs-com"
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState('');
+
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
@@ -29,16 +31,27 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (!errorMessage) {
       setFormState({ [e.target.name]: e.target.value });
       console.log('Form', formState);
+
+      emailjs.sendForm('service_qe6jyqf', 'template_cily96n', e.target, 'user_Ooz2HTl2XsHhJBR6McmRY')
+      .then((result) => {
+          console.log(result.text);
+          alert("Email Sent!")
+          e.target.reset()
+      }, (error) => {
+          console.log(error.text);
+      });
+      
     }
   };
 
   return (
     <section>
       <h1>Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit} style={{ marginLeft:"10px"}}>
+      <form  id="contact-form" onSubmit={handleSubmit} style={{ marginLeft:"10px"}}>
         <div style={{ justifyContent: "left", display: "flex", }}>
           <div style={{ justifyContent: "space-between",width:"25%" , display: "flex", }}>
             <label htmlFor="name">Name:</label>
