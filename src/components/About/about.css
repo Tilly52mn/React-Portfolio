@@ -6,3 +6,13 @@ img{
     height: auto;
     margin: 1rem;
 }
+
+@media screen and (max-width: 576px) {
+    .picture{
+        margin: 0;
+        padding: 0;
+    }
+    .pixdiv{
+        padding: 0;
+    }
+}

@@ -10,7 +10,7 @@ function About() {
       <h1 id="about">About Me</h1>
       <div>
         <div className='row'>
-          <div className='col-lg-2 col-md-4 col-sm image'>
+          <div className='col-lg-2 col-md-4 col-sm image pixdiv'>
           <img className='picture' src={picture} alt="Adam Tilly"></img>
           </div>
           <div className="col">
